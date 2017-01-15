@@ -1,7 +1,7 @@
 import turtle
 
 class Rectangle :
-    def __init__(self,length,height):
+    def __init__(self, length,height):
         """
         Initialize new rectangle instance.
 
