@@ -43,8 +43,8 @@ class MyStr (str) : #<-----Replace xyz-make a new class, MyStr, that inherits fr
         #YOUR CODE BELOW:
         #################
 
-        return str.replace(self, take_out.lower(), use_this)
-        str.replace(self, take_out.upper(), use_this)
+        return str.replace(self.lower(), take_out.lower(), use_this)
+        #str.replace(self, take_out.upper(), use_this)
 
         #return self.replace(take_out.upper(), use_this)
 
